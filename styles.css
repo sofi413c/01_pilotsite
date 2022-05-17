@@ -41,6 +41,22 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+h3 {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+}
+  .copyright {
+    font-family: "Raleway", sans-serif;
+  }
+
 /*--------------------------FORSIDE---------------------*/
 
 .pilotsite_forside img {
@@ -61,9 +77,9 @@ body {
 }
 
 .knap {
-  position: absolute;
   background-size: cover;
-  left: 20%;
+  max-width: 100%;
+  z-index: -1;
 }
 
 /*-------------------------about the project-----------------------*/
@@ -146,12 +162,15 @@ body {
   grid-column: 2;
   grid-row: 4;
   width: 400px;
+  margin-left: 5rem;
 }
 
 .video2 {
   grid-column: 2;
   grid-row: 6;
   width: 400px;
+  margin-left: 5rem;
+  margin-bottom: 2rem;
 }
 
 /*--------------------kontakt----------------------*/
@@ -172,8 +191,8 @@ body {
 .content4 {
   display: grid;
   grid-template-columns: 3rem auto 1fr auto 3rem;
-  grid-template-rows: 14rem 1fr 1fr 1fr 1fr;
-  gap: 10px;
+  grid-template-rows: 12.5rem 1fr 1fr 1fr 1fr;
+  gap: 13px;
 }
 
 .galleri {
@@ -183,10 +202,9 @@ body {
 }
 
 .galleri h1 {
-  padding: 4rem;
+  padding-block: 2rem;
   font-size: 3rem;
-  font-family: open sans;
-  margin-left: 2rem;
+  margin-left: 11rem;
 }
 
 .servering {
